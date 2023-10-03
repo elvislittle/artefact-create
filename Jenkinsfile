@@ -1,8 +1,8 @@
 pipeline {
     agent any
-    options {
+    // options {
        // copyArtifactPermission 'artifact-read'
-    }
+    // }
     stages {
         stage('Create-Artifact') {
             steps {
